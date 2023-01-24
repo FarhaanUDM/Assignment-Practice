@@ -1,0 +1,32 @@
+.container{
+    width: 1400px;
+    background-color: var(--colour-one);
+    margin: 4rem auto;
+    
+}
+.header{
+    height: 7rem;
+    background-color: var(--colour-three);
+    border-bottom: 2px solid var(--colour-eight);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    background-color: var(--colour-three);
+    display: flex;
+    height: 80vh;
+}
+.sidebar{
+    background-color: var(--colour-five);
+    flex: 0 1 20%;
+}
+.hotel-info{
+    background-color: var(--colour-four);
+    flex: 1 0 80%;
+    min-height: 300px;
+}
+.footer{
+    background-color: var(--colour-one);
+    height: 6rem;
+}

@@ -1,0 +1,33 @@
+:root{
+    --colour-one : rgb(167,169,172);
+    --colour-two :rgb(0,125,190);
+    --colour-three :rgb(0,88,138);
+    --colour-four :rgb(0,171,189);
+    --colour-five :rgb(84,198,211);
+    --colour-six :rgb(0,183,199);
+    --colour-seven :rgb(35,31,32);
+    --colour-eight :rgb(99,100,102);
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 85%;
+    /* browser default is 16px , i.e 1rem = 16px */
+    /* with font set to 70.8 % , 1rem = (85/100 *16) = 13.6px*/
+    
+}
+
+body{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    background-image:linear-gradient(to bottom right,var(--colour-two),var( --colour-six ));
+    min-height: 100vh;
+}

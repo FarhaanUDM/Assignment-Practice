@@ -1,0 +1,88 @@
+/***********HEADER COMPONENTS****** */
+/*    LOGO     */
+.logo{
+    height: 6rem;
+    margin-left: 1rem;
+}
+
+.search{
+    background-color: var(--colour-three);
+    flex: 0 0 40%;
+    align-items: center;
+}
+.search__input{
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: var(--colour-one);
+    border: none;
+    padding: .8rem 2rem;
+    border-radius: 16px;
+    width: 90%;
+    transition: all 1s;
+    margin-right: -2.5rem ;
+}
+.search__input:focus{
+    width: 100%;
+    outline: 3px solid var( --colour-two);
+}
+.search__button{
+    border: none;
+    cursor: pointer;
+    background-color: var(--colour-one);
+}
+.search__button:active{
+    transform: translateY(3px);
+}
+.user-nav{
+    background-color: var(--colour-three);
+    display: flex;
+    align-self: stretch;
+    
+    
+}
+.user-nav > *{
+    padding: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+.user-nav > *:hover{
+    background-color: var(--colour-two);
+    height: 100%;;
+}
+.user-nav__icon-box{
+    position: relative;
+}
+.user-nav__icon{
+    color: aliceblue;
+    font-size: 1.7rem;
+    
+}
+.user-nav__notif{
+    color: red;
+    background-color: aliceblue;
+    font-weight: 700;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+   
+}
+.user-nav__user-box{
+    
+}
+.user-nav__profile{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 72%;
+    margin-right: 1rem;
+}
+.user-nav__user-name{
+    
+}
